@@ -110,3 +110,49 @@ body {
         transform: translateX(-100vw);
     }
 }
+@media (max-width: 600px) {
+
+    .container {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .sky {
+        width: 800vw;
+        height: 100vh;
+    }
+
+    .trees {
+        width: 800vw;
+        height: 100vh;
+        background-size: 300px 300px;
+        top: 0;
+    }
+
+    .track {
+        width: 800vw;
+        height: 40vh;
+        top: 70vh;
+    }
+
+    .car {
+        width: 280px;
+        height: 70px;
+        left: 50%;
+        bottom: 150px;
+        transform: translateX(-50%);
+        background-size: contain;
+    }
+
+    .wheel1 img {
+        width: 55px;
+        top: 28px;
+        left: 35px;
+    }
+
+    .wheel2 img {
+        width: 55px;
+        top: -28px;
+        left: 174px;
+    }
+}
